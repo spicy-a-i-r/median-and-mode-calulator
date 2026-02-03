@@ -36,7 +36,7 @@ def find_middle(data):
         median = (n1 + n2) / 2
     else:
         median = clean_data[n // 2]
-    return (mean, median)
+    return (f"mean: {mean}, median: {median}")
 
 
 add_data()
